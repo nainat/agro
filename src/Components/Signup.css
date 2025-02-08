@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://media.licdn.com/dms/image/D4D12AQE6ZnAN7qP8yQ/article-cover_image-shrink_720_1280/0/1708424859023?e=2147483647&v=beta&t=fiUHE9foVWEJE8A9KtcDDDa9Znx3gFQKSoKxPE-FTSE');
+    background-size: cover; 
+    background-position: center; 
+    margin: 0;
+  }
+  
+  .signup-container {
+    background-color: #a7bf59;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .signup-logo {
+    width: 80px; 
+    height: auto;  
+    display: block;
+    margin: 0 auto 10px;  
+}
+.hello-text {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+.hello-text a {
+  color: white;  
+  text-decoration: none;  
+  font-weight: bold; 
+}
+
+.hello-text a:hover {
+  color: rgb(94, 201, 61);  
+}
+
+  .signup-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .signup-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .signup-container input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+  }
+  
+  .signup-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #644a2c;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .signup-container button:hover {
+    background-color: #45a049;
+  }

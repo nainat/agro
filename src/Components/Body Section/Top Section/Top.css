@@ -1,0 +1,194 @@
+:root {
+  --PrimaryColor:hsl(94,50%,35%);
+  --HoverColor: #bdf094;
+  --paleGreen: hsl(96,75%,89%);
+  --whiteColor: hsl(0,0%,100%);
+  --blackColor: hsl(0,0%,18%);
+  --textColor: hsl(240,1%,48%);
+  --bgColor: hsl(220,10%,94%);
+  --greyText:rgb(190,190,190);
+  --inputColor: hsl(330,12%,97%);
+  --biggestFontSize:2.5rem;
+  --h1FontSize: 1.5rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: .938rem;
+  --smallFontSize: .813rem;
+  --smallestFontSize: .75rem;
+}
+
+
+.topSection {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.videoBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.5; 
+}
+
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.title h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.title h3 {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.title p {
+  font-size: 16px;
+  color: #000000;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.searchBar input {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  flex: 1;
+}
+
+.searchBar .icon {
+  font-size: 24px;
+  color: #333;
+}
+
+.adminDiv {
+  display: flex;
+  align-items: center;
+}
+
+.adminDiv .icon {
+  font-size: 24px;
+  color: #333;
+  margin-right: 10px;
+}
+
+.adminImage img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.cardSection {
+  margin-top: 20px;
+}
+
+.rightCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  background-image: url("https://img.freepik.com/premium-photo/wheat-crop-hd-8k-wallpaper-stock-photographic-image_915071-32029.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center; 
+  background-attachment: fixed; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rightCard h1 {
+  font-size: 28px;
+  color: #036f11;
+  margin-bottom: 10px;
+}
+
+.rightCard p {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.buttons .btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.homepageDiv img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+.dashboardtwo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.card {
+  flex: 1;
+  padding: 2rem;
+  background-color: #a9d56b;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: 16px;
+  color: #555;
+}
+
+

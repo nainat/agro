@@ -1,0 +1,155 @@
+:root{
+    --PrimaryColor:hsl(94,50%,35%);
+    --HoverColor: #bdf094;
+    --paleGreen: hsl(96,75%,89%);
+    --whiteColor: hsl(0,0%,100%);
+    --blackColor: hsl(0,0%,18%);
+    --textColor: hsl(240,1%,48%);
+    --bgColor: hsl(220,10%,94%);
+    --greyText:rgb(190,190,190);
+    --inputColor: hsl(330,12%,97%);
+  
+    /*Font and typography*/
+    --biggestFontSize:2.5rem;
+    --h1FontSize: 1.5rem;
+    --h2FontSize: 1.25rem;
+    --h3FontSize: 1rem;
+    --normalFontSize: .938rem;
+    --smallFontSize: .813rem;
+    --smallestFontSize: .75rem;
+  
+   }
+  
+/* Top.css */
+
+.topSection {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.headerSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.title h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.title h3 {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.title p {
+    font-size: 16px;
+    color: #555;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.searchBar input {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    flex: 1;
+}
+
+.searchBar .icon {
+    font-size: 24px;
+    color: #333;
+}
+
+.adminDiv {
+    display: flex;
+    align-items: center;
+}
+
+.adminDiv .icon {
+    font-size: 24px;
+    color: #333;
+    margin-right: 10px;
+}
+
+.adminImage img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+
+.rightCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rightCard h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.rightCard p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.buttons .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buttons .btn.transparent {
+    background-color: transparent;
+    border: 2px solid #333;
+    color: #333;
+}
+
+.homepageDiv img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+// MEDIA QUERIES -----------
+@media screen and (max-width: 990px) {
+    .cardSection{
+        flex-direction: column;
+
+        .rightCard,.dashboard
+        {
+            width: 100%;
+            flex-basis: 100%;
+        } 
+
+    }
+    
+}
